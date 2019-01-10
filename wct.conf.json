@@ -1,0 +1,20 @@
+{
+  "expanded": true,
+  "npm": true,
+  "moduleResolution": "node",
+  "suites": ["test/unit"],
+  "plugins": {
+    "local": {
+      "browsers": [
+        "chrome",
+        "safari"
+      ],
+      "browserOptions": {
+        "chrome": [
+          "headless",
+          "disable-gpu"
+        ]
+      }
+    }
+  }
+}
